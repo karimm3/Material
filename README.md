@@ -24,9 +24,9 @@ URL: http://localhost:8080/swagger-ui/index.html
 
 Postman Collection
 
-You can import the Postman collection to test the API:
+You can import the Postman collection to test the API.I have upload file is : Material.postman_collection.json
+
 link: https://web.postman.co/workspace/My-Workspace~c87adcb2-5942-4538-8853-e0b05bfc2349/collection/44395005-331e19f2-9b90-417a-9503-0df2788fdab6?action=share&source=copy-link&creator=44395005
-i have upload file is : Material.postman_collection.json
 
 API Endpoints
 
