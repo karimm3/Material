@@ -26,7 +26,7 @@ Postman Collection
 
 You can import the Postman collection to test the API:
 
-Link: https://web.postman.co/workspace/My-Workspace~c87adcb2-5942-4538-8853-e0b05bfc2349/collection/44395005-540e57c3-c930-41d9-a07-c33937afc38c?action=share&source=copy-link&creator=44395005
+i have upload file is : Material.postman_collection.json
 
 API Endpoints
 
@@ -38,9 +38,9 @@ Creates a new material.
 
 findAll
 
-GET http://localhost:8080/api/materials
+Post http://localhost:8080/api/materials
 
-Returns a list of all materials.
+Returns a list of all materials.Also listing pagging.
 
 findById
 
