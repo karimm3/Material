@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "331e19f2-9b90-417a-9503-0df2788fdab6",
+		"name": "Material",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44395005"
+	},
+	"item": [
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"materialName\": \"string\",\r\n  \"materialRatePerPack\": 0,\r\n  \"materialPackSize\": 0,\r\n  \"materialDesc\": \"string\",\r\n  \"materialUomld\": \"string\",\r\n  \"materialTypeld\": \"string\",\r\n  \"materialManufacturerld\": \"string\",\r\n  \"materialVendorld\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/materials",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"materials"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getById",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Lisiting Paging",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"size\": 1,\r\n  \"search\": {\r\n    \"materialName\": \"\",\r\n    \"materialUomld\": \"\",\r\n    \"materialTypeld\": \"\",\r\n    \"materialManufacturerld\": \"\",\r\n    \"materialVendorld\": \"\"\r\n  },\r\n  \"sortOrder\": \"\",\r\n  \"sortBy\": \"\",\r\n  \"page\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/materials/getALl",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"materials",
+						"getALl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "deleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"size\": 1,\r\n  \"search\": {\r\n    \"materialName\": \"\",\r\n    \"materialUomld\": \"\",\r\n    \"materialTypeld\": \"\",\r\n    \"materialManufacturerld\": \"\",\r\n    \"materialVendorld\": \"\"\r\n  },\r\n  \"sortOrder\": \"\",\r\n  \"sortBy\": \"\",\r\n  \"page\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/materials/888cb268-1616-48e1-9051-ebec71917ce0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"materials",
+						"888cb268-1616-48e1-9051-ebec71917ce0"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
