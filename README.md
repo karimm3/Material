@@ -65,3 +65,6 @@ DELETE http://localhost:8080/api/materials/{id}
 Deletes a material by its materialld.
 
 Example: DELETE http://localhost:8080/api/materials/c3d4e5f6-a7b8-9012-cdef-123456789012
+
+Please update the Database url ,username and password ,and run sql query after run springboot Appliaction 
+
